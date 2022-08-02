@@ -45,16 +45,25 @@ Once done, you will have a file like (20220628_SN000_target.fna_scaffolding).
 Since here, you need to use snapgene program (please install this program which is available in Dartmouth staffs and students).
 In the zipped file, you can find "DNA files folder".
 
+```
 Open the biggest size of DNA files (the name would be Scaffold #1) with Snapgene.
+```
 
+```
 Then, export the data in the FASTA format in the program (naming sample1).
+```
 
+```
 Check the file with Notepad (TextEdit in Mac).
+```
 
 You will find the file with starting with ">".
-Please change the name after ">" to something like sample1.
+```
+Please change the name after ">" to something like sample1 in the Notepad.
+```
 
 Repeat the same procedures with your samples.
+
 
 Now, you will have seven samples (sample1.fa, sample2.fa, etc).
 
