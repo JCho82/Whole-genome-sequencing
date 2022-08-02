@@ -43,7 +43,7 @@ For the target genome, you need to input each aligned sample.
 For the reference genome, you should use a complete reference genone in FASTA format.
 ```
 https://www.ncbi.nlm.nih.gov/genbank/
-Type your stain name like JE2.
+Type your strain name like JE2.
 Find the complete genome (For instance, JE2, https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP020619.1).
 Save two files (Fasta file and genbank file).
 
