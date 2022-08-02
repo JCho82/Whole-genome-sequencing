@@ -50,7 +50,7 @@ Open the biggest size of DNA files (the name would be Scaffold #1) with Snapgene
 ```
 
 ```
-Then, export the data in the FASTA format in the program (naming sample1).
+Then, export the data in the FASTA format in the program (name it as sample1).
 ```
 
 ```
