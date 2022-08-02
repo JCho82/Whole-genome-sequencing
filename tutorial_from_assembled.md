@@ -29,7 +29,7 @@ conda activate bioinfo
 
 Now, you are all set to analyze your WGS data.
 
-### 3. Combine your contigs (Website).
+### 3. Combine your contigs (on a website).
 The aligned samples have multiple contigs. To make a scaffold (a big and single genome), you should use one of scaffolding programs.
 
 I am using CSAR (nucleic acids reseach, 2018, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030906/).
