@@ -1,4 +1,4 @@
-### 1. Set up a path for you to use conda
+### 1. Set up a path for you to use conda (in terminal)
 ```
 source /optnfs/common/miniconda3/etc/profile.d/conda.sh
 ```
@@ -18,7 +18,7 @@ cd ~
 mkdir -p .conda/pkgs/cache .conda/envs
 ```
 
-### 2. create a code environment for you.
+### 2. create a code environment for you (in terminal).
 ```
 conda env create -f /dartfs-hpc/scratch/rnaseq1/environment.yml
 ```
@@ -29,7 +29,7 @@ conda activate bioinfo
 
 Now, you are all set to analyze your WGS data.
 
-### 3. Combine your contigs.
+### 3. Combine your contigs (Website).
 The aligned samples have multiple contigs. To make a scaffold (a big and single genome), you should use one of scaffolding programs.
 
 I am using CSAR (nucleic acids reseach, 2018, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030906/).
@@ -39,7 +39,15 @@ http://lu168.cs.nthu.edu.tw/CSAR-web/index.php
 ```
 The files to input here will be provided.
 For the target genome, you need to input each aligned sample.
+
 For the reference genome, you should use a complete reference genone in fasta format.
+```
+https://www.ncbi.nlm.nih.gov/genbank/
+Type your stain name like JE2.
+Find the complete genome (https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP020619.1).
+Save two files (Fasta file and genbank file).
+
+```
 
 Once done, you will have a file like (20220628_SN000_target.fna_scaffolding).
 Since here, you need to use snapgene program (please install this program which is available in Dartmouth staffs and students).
@@ -76,5 +84,18 @@ First, you need to make a folder to save your files.
 mkdir scaffold_files
 ```
 
-Second, tranfer your files to the folder, using File
+Second, tranfer your files to the folder, using FileZilla program.
+```
+Host: Discovery.dartmouth.edu
+ID: your ID
+password: your password
+Port: 22
+
+Drag or copy the files and paste to your new folder (scaffold_files).
+
+```
+
+### 4.  
+
+
 
