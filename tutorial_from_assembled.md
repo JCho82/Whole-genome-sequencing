@@ -47,20 +47,23 @@ In the zipped file, you can find "DNA files folder".
 
 Open the biggest size of DNA files (the name would be Scaffold #1) with Snapgene.
 
-Then, export the data in FASTA format in the program.
+Then, export the data in the FASTA format in the program (naming sample1).
+
+Check the file with Notepad (TextEdit in Mac).
+
+You will find the file with starting with ">".
+Please change the name after ">" to something like sample1.
+
+Repeat the same procedures with your samples.
+
+Now, you will have seven samples (sample1.fa, sample2.fa, etc).
 
 
-
-
-
-
-
-
-### 3. Copy your aligned files into your own folder.
+### 3. Copy your scaffold files into your own folder.
 First, you need to make a folder to save your files.
 ```
-mkdir aligned_files
+mkdir scaffold_files
 ```
 
-Second, tranfer your files to the folder, using 
+Second, tranfer your files to the folder, using File
 
