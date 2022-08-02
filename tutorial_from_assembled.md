@@ -44,7 +44,7 @@ For the reference genome, you should use a complete reference genone in fasta fo
 ```
 https://www.ncbi.nlm.nih.gov/genbank/
 Type your stain name like JE2.
-Find the complete genome (https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP020619.1).
+Find the complete genome (For instance, JE2, https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP020619.1).
 Save two files (Fasta file and genbank file).
 
 ```
@@ -95,7 +95,51 @@ Drag or copy the files and paste to your new folder (scaffold_files).
 
 ```
 
-### 4.  
+### 4. Time to compare your genomes.
+
+In terminal, check if you have Mummer program in your environment.
+
+```
+conda list
+```
+
+If you find it, then
+
+Go to the folder where you moved your files.
+
+```
+ls -l
+
+CD scaffold_files
+```
+
+To align your genomes, you need to make a delta file which is a kind of guiding file.
+
+```
+nucmer [option] <reference file> <query file>
+
+nucmer --delta sample1.fa sample2.fa
+
+(or your can put the real reference file like JE2 reference file) 
+```
+
+Then align your samples.
+
+```
+show-aligns <delta.file> <fasta ID for ref> <fasta ID for query>
+
+show-aligns out.delta Sample1 Sample2
+The fast IDs are from the names after "<"
+```
+
+Now, you will see the aligned result from sample1 vs. sample2.
+Since they are not annotated in the scaffold format, you are only able to see the loci where mutations occurred.
+
+Thus, you need to manually compare the loci from JE2 ref (the genbank file).
+
+
+
+
 
 
 
