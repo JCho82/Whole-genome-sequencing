@@ -60,6 +60,8 @@ Check the file with Notepad (TextEdit in Mac).
 You will find the file with starting with ">".
 ```
 Please change the name after ">" to something like sample1 in the Notepad.
+You should remember or jot down somewhere this name since you are going to use this name later.
+It would be better to make it the same as your file name.
 ```
 
 Repeat the same procedures with your samples.
