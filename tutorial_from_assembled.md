@@ -120,8 +120,8 @@ nucmer [option] <reference file> <query file>
 
 nucmer --delta sample1.fa sample2.fa
 
-(or your can put the real reference file like JE2 reference file) 
 ```
+(or your can put the real reference file like JE2 reference file) 
 
 Then align your samples.
 
@@ -129,8 +129,10 @@ Then align your samples.
 show-aligns <delta.file> <fasta ID for ref> <fasta ID for query>
 
 show-aligns out.delta Sample1 Sample2
-The fast IDs are from the names after "<"
 ```
+
+The fast IDs are from the names after "<"
+
 
 Now, you will see the aligned result from sample1 vs. sample2.
 Since they are not annotated in the scaffold format, you are only able to see the loci where mutations occurred.
