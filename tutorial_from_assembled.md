@@ -40,7 +40,7 @@ http://lu168.cs.nthu.edu.tw/CSAR-web/index.php
 The files to input here will be provided.
 For the target genome, you need to input each aligned sample.
 
-For the reference genome, you should use a complete reference genone in fasta format.
+For the reference genome, you should use a complete reference genone in FASTA format.
 ```
 https://www.ncbi.nlm.nih.gov/genbank/
 Type your stain name like JE2.
