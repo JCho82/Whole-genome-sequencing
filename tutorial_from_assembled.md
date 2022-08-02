@@ -131,7 +131,7 @@ show-aligns <delta.file> <fasta ID for ref> <fasta ID for query>
 show-aligns out.delta Sample1 Sample2
 ```
 
-The fast IDs are from the names after "<"
+The fasta IDs are from the names after "<"
 
 
 Now, you will see the aligned result from sample1 vs. sample2.
